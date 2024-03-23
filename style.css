@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: hsl(212, 45%, 89%);
+    font-family: Outfit;
+    width: 100%;
+
+    margin: 0;
+}
+
+section{
+    margin: 100px auto 75px auto;
+    width: 90%;
+}
+
+.container{
+    text-align: center;
+
+    background-color: hsl(0, 0%, 100%);
+    width: 320px;
+    height: 497px;
+
+    padding: 10px 5px 25px 5px;
+
+    border-radius: 4%;
+
+    margin: 0 auto;
+}
+
+.text {
+    width: 288px;
+    height: 129px;
+
+    text-align: center;
+
+    margin: 0 auto;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 23px;
+
+    color: hsl(218, 44%, 22%);
+
+    margin-bottom: 16px;
+}
+
+.message{
+    font-weight: 400;
+    font-size: 15px;
+
+    color: hsl(220, 15%, 55%);
+
+    padding: 0 20px;
+}
+
+.qr-code{
+    width: 288px;
+    height: 288px;
+
+    border-radius: 3%;
+    object-fit:contain;
+
+    margin-bottom: 32px;
+    margin-top: 10px;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    margin: 0 auto 25px auto; 
+    padding: 0 50px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width: 375px) {
+
+    section {
+        margin: 50px auto 35px auto;
+    }
+
+    .container {
+        width: 270px;
+        height: 450px;
+
+        padding: 5px;
+    }
+
+    .text {
+        width: 250px;
+    }
+
+    h1 {
+        font-size: 20px;
+
+        margin-bottom: 15px;
+    }
+
+    .message {
+        font-size: 14px;
+    }
+
+    .qr-code{
+        width: 250px;
+        height: 250px;
+
+        margin-bottom: 25px;
+    }
+
+    .attribution { 
+        font-size: 11px; 
+        padding: 0 75px;
+    }
+    
+}
+
+@media screen and (min-width: 1440px) {
+
+    section {
+        margin: 100px auto;
+    }
+
+    .container {
+        width: 425px;
+        height: 660px;
+
+        padding: 10px 5px 25px 5px;;
+    }
+
+    .text {
+        width: 380px;
+    }
+
+    h1 {
+        font-size: 32px;
+        margin-bottom: 15px;
+    }
+
+    .message {
+        font-size: 20px;
+    }
+
+    .qr-code{
+        width: 380px;
+        height: 380px;
+
+        margin-bottom: 25px;
+    }
+
+    .attribution { 
+        font-size: 14px; 
+    }
+}
